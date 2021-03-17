@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  background: rebeccapurple;
+  overflow: hidden;
+}
+ul li {
+  float: left;
+  list-style-type: none;
+}
+ul li a {
+  color: rgb(243, 236, 236);
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 15px 10px;
+  display: inline-block;
+}
+ul li a:hover {
+  background: rgb(80, 167, 46);
+}
+.dropdroun-cont {
+  background: white;
+  display: none;
+  position: absolute;
+  box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.3);
+  width: 90px;
+}
+
+.dropdroun-cont a {
+  color: #000;
+  display: block;
+  padding: 10px;
+}
+  
+.dropdroun-cont a:hover {
+  background: rgb(226, 215, 193);
+}
+.dropdroun:hover .dropdroun-cont {
+  display: block;
+}
